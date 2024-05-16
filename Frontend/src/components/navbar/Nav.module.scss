@@ -1,0 +1,46 @@
+.container__nav {
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 16px;
+    transition: opacity 300ms ease 0s;
+    opacity: 1;
+    width: 224px;
+    .tiktok-znnspw-StyledTopArrow {
+        right: 15px;
+        display: block;
+        width: 24px;
+        height: 8px;
+        position: absolute;
+        top: -8px;
+    }
+    .container__item {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 8px 0px;
+        margin: 0px;
+        min-width: 224px;
+        font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+        .nav-item {
+            color: rgb(22, 24, 35);
+            display: flex;
+            -webkit-box-pack: justify;
+            align-items: center;
+            padding: 10px 8px 10px 16px;
+            text-decoration: none;
+            &:hover {
+                cursor: pointer;
+                background-color: #16182308;
+            }
+        }
+        .icon {
+            margin-right: 8px;
+            width: 20px;
+            height: 20px;
+            flex: 0 0 20px;
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+}

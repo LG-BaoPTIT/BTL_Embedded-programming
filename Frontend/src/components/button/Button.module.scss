@@ -1,0 +1,17 @@
+.btn-back {
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    width: 52px;
+    justify-content: center;
+    background-image: linear-gradient(to bottom left,#e14eca,#ba54f5,#e14eca);
+    .icon-home {
+        font-size: 24px;
+        color: #222;
+    }
+    :hover {
+        cursor: pointer;
+        color: #000;
+    }
+}

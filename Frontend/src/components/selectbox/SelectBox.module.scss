@@ -1,0 +1,37 @@
+/* SelectBox.module.scss */
+
+.container_select-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+
+    .item-1 {
+        display: flex;
+        align-items: center;
+
+        span {
+            margin-right: 12px;
+            font-size: 20px;
+        }
+
+        color: hsla(0, 0%, 100%, 0.7);
+    }
+
+    .filterRow {
+        display: flex;
+    }
+
+    .item-2 {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+        border-radius: 8px;
+    }
+    .icon {
+        width: 28px;
+        height: 28px;
+        border-radius: 8px;
+        background-color: aliceblue;
+    }
+}

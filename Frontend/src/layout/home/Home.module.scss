@@ -1,0 +1,112 @@
+.title {
+            color: #333;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 32px;
+        }
+.container_app {
+    background-color: rgb(193, 207, 234);
+    padding: 32px 52px 52px 52px;
+    top: 0;
+    right: 0;
+    left: 0;
+    .title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        h3 {
+            font-family: 'Roboto', sans-serif;
+        }
+        .icon-nav {
+            font-size: 32px;
+            padding: 4px;
+            margin-bottom: 20px;
+            :hover {
+                cursor: pointer;
+            }
+        }
+
+    }
+    &-body {
+        margin-top: 80px;
+        .item-light {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            margin: 40px 0;
+            .item {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+            }
+            .light-off {
+                width: 100px;
+                margin-bottom: 24px;
+            }
+            .light-on {
+                width: 100px;
+                margin-bottom: 24px;
+            }
+            .on {
+                width: 100px;
+                padding: 8px 16px;
+                border-radius: 16px;
+                border: 1px solid #ccc;
+                background-color: rgb(70, 233, 70);
+                color: #fff;
+                font-weight: 600;
+            }
+            .off {
+                width: 100px;
+                padding: 8px 16px;
+                border-radius: 16px;
+                border: 1px solid #ccc;
+                background-color: rgb(243, 95, 95);
+                color: #fff;
+                font-weight: 600;
+            }
+        }
+
+        .item-fan {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            .item {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+            }
+            .fan-off {
+                width: 100px;
+                margin-bottom: 24px;
+            }
+            .fan-on {
+                width: 100px;
+                margin-bottom: 24px;
+            }
+            .on {
+                width: 100px;
+                padding: 8px 16px;
+                border-radius: 16px;
+                border: 1px solid #ccc;
+                background-color: rgb(70, 233, 70);
+                color: #fff;
+                font-weight: 600;
+            }
+            .off {
+                width: 100px;
+                padding: 8px 16px;
+                border-radius: 16px;
+                border: 1px solid #ccc;
+                background-color: rgb(243, 95, 95);
+                color: #fff;
+                font-weight: 600;
+            }
+        }
+    }
+}

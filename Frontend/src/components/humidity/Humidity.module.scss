@@ -1,0 +1,27 @@
+.container {
+    background: linear-gradient(0.25turn, #fff, rgb(218, 216, 216));
+    width: 100%;
+    height: 200px;
+    padding: 24px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    .description {
+        font-size: 40px;
+        margin-right: 52px;
+        .title {
+            color: #333;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+
+    .img-des {
+        .icon {
+            font-size: 80px;
+            color: #999;
+        }
+    }
+}

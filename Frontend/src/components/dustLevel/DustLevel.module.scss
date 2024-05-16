@@ -1,0 +1,61 @@
+.container {
+    background: linear-gradient(0.25turn, #fff, rgb(218, 216, 216));
+    width: 100%;
+    height: 200px;
+    padding: 24px 40px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    .description {
+        font-size: 40px;
+        .title {
+            color: #333;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 32px;
+        }
+    }
+
+    .img-des {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .dustlevel {
+            font-size: 40px;
+        }
+        .icon {
+            font-size: 60px;
+            color: #999;
+        }
+    }
+}
+
+.containerRed {
+    background: linear-gradient(0.25turn, #8c4a4a, rgb(192, 89, 89));
+    width: 100%;
+    height: 200px;
+    padding: 24px 40px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    .description {
+        font-size: 40px;
+        .title {
+            color: #333;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 32px;
+        }
+    }
+
+    .img-des {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .dustlevel {
+            font-size: 40px;
+        }
+        .icon {
+            font-size: 60px;
+            color: #999;
+        }
+    }
+}
